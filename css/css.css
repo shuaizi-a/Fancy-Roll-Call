@@ -1,0 +1,46 @@
+body,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.title{
+    text-align: center;
+}
+
+.tba{
+    text-align: center;
+}
+.btn{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.list{
+    margin: 0 auto;
+    width: 1000px;
+    border: 1px solid skyblue;
+    text-align: center;
+}
+
+.list li{
+    display: inline-block;
+    width: 110px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 10px;
+    color: aliceblue;
+    line-height: 45px;
+    text-align: center;
+    background-color: #337ab7;
+    
+}
+.list li.active{
+    background: green;
+    box-shadow: 4px 4px 4px #666;
+}
+
+.list li.end{
+    background: red;
+    box-shadow: 4px 4px 4px #666;
+}
